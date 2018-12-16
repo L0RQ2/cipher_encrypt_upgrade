@@ -8,8 +8,6 @@
 #define col GetStdHandle(STD_OUTPUT_HANDLE)//콘솔창에 핸들정보
 #pragma warning(disable:4996)
 
-char abc[50] = "Hello";
-
 int main(void) {
 	char Original_String[101];
 	char Encode_String[101];
